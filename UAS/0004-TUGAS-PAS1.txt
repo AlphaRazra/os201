@@ -28,7 +28,7 @@ AlphaRazra ZCZCSCRIPTSTART 200605-142030 amaliahanisa
 AlphaRazra amaliahanisa 200605-142202-b0b7-amalia.hanisafitri/ 200605-142202 SEQOK SUMOK b0b7af50
 AlphaRazra amaliahanisa 200605-142210-1db9-amalia.hanisafitri/ 200605-142210 SEQOK SUMOK 1db9ec35
 AlphaRazra amaliahanisa 200605-142222-46c7-amalia.hanisafitri/ 200605-142222 SEQOK SUMOK 46c7a517
-AlphaRazra amaliahanisa 200605-142222-a79c-amalia.hanisafitri/ 200605-142404 SEQOK SUMOK a79ce7d5
+AlphaRazra amaliahanisa 200605-142404-a79c-amalia.hanisafitri/ 200605-142404 SEQOK SUMOK a79ce7d5
 AlphaRazra ZCZCSCRIPTSTOP 200605-142413 SEQOK
 
 200608-210534-caf4-UAS/> exit
