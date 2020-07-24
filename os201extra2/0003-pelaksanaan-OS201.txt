@@ -1,0 +1,13 @@
+Muhammad Salman Al Farisi / OS - C / 1806133843 / AlphaRazra
+
+Pelaksanaan Kuliah OS201
+=========================
+
+Buat sebuah catatan singkat pelaksanaan mata ajar OS selama semester ini.
+==========================================================================
+Pelaksanaan mata kuliah OS semester ini secara garis besar dapat dibagi menjadi 2 fase, yaitu fase pembelajaran tatap muka langsung, dan fase pembelajaran jarak jauh dengan daring. Pembelajaran tatap muka langsung dilaksanakan mulai dari awal perkuliahan hingga UTS, sedangkan untuk pembelajaran jarak jauh dengan daring dilaksanakan setelah UTS hingga akhir semester.
+
+Materi, demo materi, dan latihan soal yang berisi soal soal ujian tahun tahun sebelumnya dapat di akses melalui https://os.vlsm.org/. Selain itu, juga di sediakan environment linux pada server badak.cs.ui.ac.id yang mana mahasiswa dapat mengakses kesana untuk mencoba melakukan demo dan scripting pada environment linux.
+
+Nilai yang diambil tiap minggunya berupa nilai partisipasi yang dapat menilai pemahaman mahasiswa terhadap materi di minggu tersebut, pada metode tatap muka, nilai partisipasi didapat dari nilai absen, bertanya, dan menjawab pada saat kelas tatap muka berlangsung. Sedangkan pada pembelajaran jarak jauh, nilai partisipasi di dapat dari melakukan absen pada github dan aktif dalam forum daring. Untuk memperlancar komunikasi dosen pengampu dengan mahasiswa, dibuat grup WhatsApp dan terdapat diskusi aktif pada forum di scele.cs.ui.ac.id.
+
