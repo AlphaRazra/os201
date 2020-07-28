@@ -11,3 +11,17 @@ Materi, demo materi, dan latihan soal yang berisi soal soal ujian tahun tahun se
 
 Nilai yang diambil tiap minggunya berupa nilai partisipasi yang dapat menilai pemahaman mahasiswa terhadap materi di minggu tersebut, pada metode tatap muka, nilai partisipasi didapat dari nilai absen, bertanya, dan menjawab pada saat kelas tatap muka berlangsung. Sedangkan pada pembelajaran jarak jauh, nilai partisipasi di dapat dari melakukan absen pada github dan aktif dalam forum daring. Untuk memperlancar komunikasi dosen pengampu dengan mahasiswa, dibuat grup WhatsApp dan terdapat diskusi aktif pada forum di scele.cs.ui.ac.id.
 
+Perbandingan pelaksanaan kegiatan belajar mengajar sebelum dan sesudah UTS.
+============================================================================
+Sebelum UTS
+- Pelaksanaan pengajaran mata kuliah OS dilakukan secara offline dengan tatap muka setiap 2 kali seminggu
+- Membuat Memo tiap minggunya yang nantinya akan menjadi cheatsheet saat UTS yang berisi mengenai materi pembelajaran pada hari tersebut
+- Nilai partisipasi tiap minggunya akan diambil dari kehadiran dikelas dan tanya jawab di dalam kelas
+- Pada saat kelas, dosen pengampu akann menjelaskan mengenai demo sehingga diharapkan mahasiswa telah mempelajari materi minggu tersebut sebelum kelas
+
+Sesudah UTS
+- Pelaksanaan pengajaran dilakukan secara online dengan melalui video yang sudah diberikan pada SCELE
+- Tanya jawab menjadi dilakukan melalui forum pada scele
+- Penjelasan demo diberikan melalui unggahan video pada youtube
+- Absen dilakukan melalui forum scele dan github OS yang telah disediakan
+- Tidak ada penulisan memo tiap minggunya dan tidak ada cheatsheet untuk UAS.
