@@ -25,3 +25,24 @@ Sesudah UTS
 - Penjelasan demo diberikan melalui unggahan video pada youtube
 - Absen dilakukan melalui forum scele dan github OS yang telah disediakan
 - Tidak ada penulisan memo tiap minggunya dan tidak ada cheatsheet untuk UAS.
+
+Perbandingan pelaksanaan UTS OS dengan UTS lainnya.
+====================================================
+Sebelumnya, pada kasus saya pribadi, mata kuliah OS adalah satu satunya mata kuliah yang UTS nya sempat untuk dilakukan offline. Sedangkan untuk mata kuliah lain yang saya ikuti telah melakukan UTS nya secara online jarak jauh
+
+UTS OS
+- Dilakukan secara offline di gedung Fasilkom UI dengan diawasi pengawas secara langsung
+- Soal terdiri dari isian dan esai
+- Banyak soal dengan tipe programming seperti demo yang dilakukan tiap minggunya
+- Diperbolehkan membawa cheatsheet dengan batasan 1 lembar untuk tiap 1 minggu pembelajaran
+- Tidak ada soal bertipe Benar/Salah atau juga Pilihan Ganda
+
+UTS lainnya
+- Secara umum, dilakukan secara online tanpa di awasi pengawas namun tetap menjunjung tinggi integritas
+- Dilakukan dengan memanfaatkan fitur quiz pada scele.cs.ui.ac.id, terkecuali untuk soal pemrograman seperti TBA menggunakan fitur pada aren.cs.ui.ac.id
+- Jika terdapat soal bertipe esai, terdapat 2 opsi yaitu melakukan penjelasan pada kolom jawaban yang sudah di sediakan, atau menulis jawaban pada kertas lalu memfoto dan mengumpulkannya
+Penjelasan secara khusus tiap mata kuliah selain OS adalah sebagai berikut :
+- Soal mata kuliah Basis Data terdiri dari pilihan ganda dan esai, dilakukan di scele.cs.ui.ac.id
+- Untuk pelaksanaan UTS Advanced Programming, terdiri dari pilihan ganda dan isian singkat yang dilakukan di scele.cs.ui.ac.id serta terdapat juga memperbaiki program melalui GitLab.
+- Untuk pelaksanaan UTS TBA, dilakukan melalui aren.cs.ui.ac.id. Soal berbentuk essay dan membuat mesin. Untuk soal essay, mahasiswa melakukan scan dan mengunggahnya ke server aren sedangkan untuk soal membuat mesin, rancangan mesin dibuat melalui JFLAP dan dikumpulkan untuk di grading otomatis pada server aren.
+- Untuk pelaksanaan UTS Analisis Numerik, Soal terdiri dari soal essai dan beberapa soal pemrograman dengan membuat program pada file octave (ekstensi .m) kemudian keseluruhan jawaban di zip dan dikumpulkan melalui google classroom.
