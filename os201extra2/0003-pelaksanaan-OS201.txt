@@ -46,3 +46,20 @@ Penjelasan secara khusus tiap mata kuliah selain OS adalah sebagai berikut :
 - Untuk pelaksanaan UTS Advanced Programming, terdiri dari pilihan ganda dan isian singkat yang dilakukan di scele.cs.ui.ac.id serta terdapat juga memperbaiki program melalui GitLab.
 - Untuk pelaksanaan UTS TBA, dilakukan melalui aren.cs.ui.ac.id. Soal berbentuk essay dan membuat mesin. Untuk soal essay, mahasiswa melakukan scan dan mengunggahnya ke server aren sedangkan untuk soal membuat mesin, rancangan mesin dibuat melalui JFLAP dan dikumpulkan untuk di grading otomatis pada server aren.
 - Untuk pelaksanaan UTS Analisis Numerik, Soal terdiri dari soal essai dan beberapa soal pemrograman dengan membuat program pada file octave (ekstensi .m) kemudian keseluruhan jawaban di zip dan dikumpulkan melalui google classroom.
+
+Perbandingan pelaksanaan UAS OS dengan UAS lainnya.
+===================================================
+UAS OS
+- Dilaksanakan dalam beberapa tahap (PAS0-PAS5). Yang dimulai tanggal 8 Juni sampai 7 Juli 2020.
+- Detail jangka waktu tiap tahapnya adalah : PAS0 dilaksanakan 1 minggu, PAS1, PAS2, PAS3, PAS4 dilaksanakan 1 hari, dan PAS5 dilaksanakan 3 jam dengan ekstensi 1 hari.
+- Pengumuman dan update mengenai ujian diberikan melalui grup Whatsapp yang dapat diakses oleh semua peserta ujian.
+- Metode pengumpulan tugas yaitu dengan push file tugas tersebut ke repo github.
+- Beberapa file tugas dienkripsi dengan key yang hanya diketahui oleh pembuat file dan dosen pengampu agar orang yang tidak berkenan tidak dapat melihat isi file.
+- Tahap PAS2, PAS3, dan PAS  dikerjakan secara berkelompok dengan pembentukkan kelompok dilakukan melalui github.
+
+UAS lainnya
+Berikut adalah detail untuk pelaksanaan UAS di tiap tiap mata kuliah selain mata kuliah OS.
+- Untuk pelaksanaan UAS TBA menggunakan server aren. Untuk soal essay, jawaban dijawab menggunakan tulisan tangan di selembaran kertas dan upload hasil scan ke tempat yang sudah di sediakan. Sedangkan untuk soal pembuatan machine akan diterima oleh judge otomatis yang hasilnya akan keluar setelah ujian selesai.
+- Untuk pelaksanaan UAS Basdat, tipe soal adalah pilihan ganda dan essay.  Dilaksanakan dengan total 3 jam pengerjaan dan kedua tahapan tersebut dilaksanakan di scele.cs.ui.ac.id. Untuk soal pilihan ganda, nilai dapat langsung diketahui setelah submit, sedangkan untuk soal essay jawaban ditulis di kertas dan hasil di scan kemudian di upload di scele.
+- Untuk pelaksanaan UAS Advance Programming, tipe soal adalah pilihan ganda, essay, dan melengkapi program. Ketiga tiganya dilaksanakan dengan menggunakan scele.cs.ui.ac.id dengan total waktu pengerjaan 3 jam.
+- Secara umum, UAS mata kuliah selain OS dilaksanakan dengan 1 tahapan dalam waktu tertentu.
