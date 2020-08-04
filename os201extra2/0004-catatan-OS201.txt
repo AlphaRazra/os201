@@ -2,3 +2,18 @@ Muhammad Salman Al Farisi / OS-C  /  18061333843 / AlphaRazra
 
 1. Catatan tambahan untuk pelaksanaan:
 =====================================
+a. Persiapan UAS
+Kendala :
+- Kesulitan untuk memahami beberapa perintah yang diberikan. Karna diberikan secara implisit seperti "menandatangani" yang memiliki arti "sign" sebuah berkas.
+- Mahasiswa banyak yang lupa mengenai cara untuk mengenkripsi dan memberikan key
+- Server badak pada jam jam terakhir deadline pembuatan berkas mengalami down
+
+Kelebihan :
+- Clue dan petunjuk yang diberikan sudah sangat jelas jika mengerti mengenai apa yang di maksud di petunjuk.
+- Bobot dari tahapan persiapan UAS ini sangat besar, bahkan jika mendapatkan full mark pada persiapan UAS sudah memastikan mahasiswa tersebut mendapatkan nilai lulus pada UAS
+- Waktu pengerjaan sangat panjang, sehingga sangat leluasa untuk mengerjakan
+- Terdapat log yang di update tiap harinya untuk memantau apakah kita sudah lolos tahap persiapan UAS ini atau tidak
+
+Kekurangan :
+- Terdapat beberapa perintah yang tidak jelas pada persiapan UAS, sehingga masih perlu ditanyakan ke forum untuk mendapatkan perintah yang jelas
+- Beberapa kecacatan yang belum awam diketahui seperti kejadian copy paste menggunakan environment windows ke github, sehingga menyebabkan terdeteksi error dan bad sign pada penandatanganan berkas
