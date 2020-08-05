@@ -17,3 +17,84 @@ Kelebihan :
 Kekurangan :
 - Terdapat beberapa perintah yang tidak jelas pada persiapan UAS, sehingga masih perlu ditanyakan ke forum untuk mendapatkan perintah yang jelas
 - Beberapa kecacatan yang belum awam diketahui seperti kejadian copy paste menggunakan environment windows ke github, sehingga menyebabkan terdeteksi error dan bad sign pada penandatanganan berkas
+
+b. Tahap 1
+Kendala :
+- Kemampuan penggunaan terminal pada linux yang kurang dapat menghambat proses pengerjaan UAS pada tahap ini
+- Pada tahapan ini dibutuhkan kemampuan pembuatan script yang cukup advanced, sehingga untuk beberapa mahasiswa harus mempelajari terlebih dahulu.
+- Pada pengabsenan melalui github sering terjadi race condition.
+
+Kelebihan :
+- Telah diberikan github pages yang telah memenuhi syarat. yaitu pada github cbkadal.
+- Meskipun untuk membuat script dibutuhkan kemampuan tingkat lanjut, hal ini tidak menjadi salah satu penilaian karena untuk pengecekan dapat dilakukan secara manual
+- Menjadi tahu bagaimana membuat endpoint baru untuk url pada github pages.
+
+Kekurangan :
+- Kurang penjelasan terkait dengan soal yang dimaksud, beberapa seperti contoh SEQNO dan SUMNO yang tidak terdapat pada soal Hal ini baru dapat diketahui setelah terdapat mahasiswa yang menanyakan melalui forum di scele.
+- Penjelasan mengenai contoh SEQNO juga menurut saya kurang jelas dan terdapat ambiguitas antar contoh.
+- Tidak seperti persiapan UAS yang terdapat log untuk mengecek apakah pekerjaan kita sudah benar atau belum.
+
+c. Tahap 2
+Kendala :
+- Perubahan tingkat kesulitan yang cukup besar antara tahap 1 dengan tahap 2 yang ternyata tahap 2 jauh lebih susah dibandingkan tahap 1.
+- Pada bagian mengerti kodingan yang diberikan, sangat terhambat pada implementasi mmap untuk multithreading yang tidak ada pada weekly demo.
+- Beberapa mahasiswa kurang terbiasa dengan bahasa C yang hanya digunakan pada perkuliahan OS.
+
+Kelebihan :
+- Menjadi lebih tahu bagaimana semafor bekerja untuk menghindari terjadinya race condition dalam mengakses memori yang sama bersamaan.
+- Menjadi lebih tahu bagaimana penggunaan semafor biasa yang biasanya di inisiasi dengan nilai 0 dengan semafor untuk mutex, yang biasanya di inisisasi dengan nilai 1.
+- Menjadi lebih tahu bagaimana cara memetakan sebuah file ke memory di bahasa C dengan menggunakan mmap.
+- Tugas tahap ini merupakan tugas kelompok, sehingga beban yang ditanggung dapat lebih ringan
+
+Kekurangan :
+- Memahami dengan hanya membaca soal cenderung sangat membingungkan, memahami soal harus dengan diikuti melihat template yang telah diberikan. Menurut saya, penjelasan yang dijelaskan di soal seharusnya dapat lebih jelas tanpa harus melihat ke template program.
+- Beberapa penjelasan pada contoh keluaran seperti "TIME[16]", nilai dari 16 diperoleh darimana kurang jelas, baru menjadi jelas setelah terdapat salah satu peserta ujian yang menanyakan melalui forum di Scele.
+- Mekanisme pembagian kelompok yang kurang tersampaikan kepada mahasiswa, sehingga beberapa mahasiswa kebingungan.
+
+c. Tahap 3
+Kendala : 
+- Peserta yang lolos ke tahap 3 sudah sangat sedikit, sehingga untuk meminta bantuan sangat susah.
+- Hanya dapat meminta bantuan kepada teman 1 kelompok
+- Beberapa mahasiswa yang lolos hingga tahap 3, sudah mulai jenuh karena rentang waktu pengerjaan UAS OS yang sangat lama ini.
+
+Kelebihan :
+- Tugas tahap 3 sangat familiar dengan tugas tahap 2, sehingga mahasiswa yang sudah sangat mengerti dengan tahap 2, sangat mudah memahami tugas tahap 3
+- Mahasiswa dengan status TERM3 (tidak lolos dari tahap 2, namun dapat mengegrjakan tahap 3) deadline waktunya panjang.
+- Mahasiswa dapat mengerti lebih dalam mengenai semafor
+
+Kekurangan :
+- Terdapat beberapa revisi soal saat telah berjalan waktu pengerjaan dapat membingungkan mahasiswa
+- Terdapat beberapa bagian yang penting tapi ambigu/kurang ditekankan, seperti penamaan file dan sebagainya.
+- Pada soal terdapat kalimat seperti "kreativitas masing masing" kadang membuat bingung bagaimana kreativitas dapat ditambahkan kedalam pengerjaan tugas.
+- Tugas kelompok seperti ini tidak dapat melihat anggota mana yang kurang memberikan andil dalam kelompok
+
+d. Tahap 4
+Kendala : 
+- Peserta yang lolos ke tahap 4 sudah semakin sedikit, sehingga untuk meminta bantuan sangat susah.
+- Setiap kali terdapat revisi, mahasiswa harus melakukan decrypt ulang terhadap soal update, kemudian unzip, kemudian diletakkan di badak agar setiap anggota kelompok dapat melihat revisi tersebut.
+- Berbeda dengan tahap 3 yang sangat mirip dengan tahap 2, tahap 4 ini juga mengenai mutex namun cukup beda dengan tahap 3, sehingga mahasiswa dituntut untuk mengerti kembali terhadap soal yang diberikan
+
+Kelebihan : 
+- Soal tidak jauh beda dengan tahap 2 dan tahap 3, masih mengenai semafor dan mutex
+- Dilakukan secara berkelompok sehingga bobot pengerjaan dapat menjadi lebih ringan
+
+Kekurangan : 
+- Tingkat kesulitan tahap 4 dibanding tahap 3 yang relatif lebih susah jika dibandingkan dengan tahap 3 yang dibanding dengan tahap 2
+- Penjelasan pada soal beberapa ada yang kurang jelas. Hal hal mengenai "TIME[XX]" dan "MUTEX[XX]" yang berbeda dengan tahap sebelumnya tidak dijelaskan.
+
+e. Tahap 5
+Kendala :
+- Materi mengenai FUSE tidak ada di week manapun pada perkuliahan OS semester ini, sehingga ini cukup menghambat mahasiswa untuk mengerti tugas yang diberikan
+- Environment yang dibutuhkan untuk menjalankan FUSE tidak menddukung untuk dapat dijalankan di windows, sehingga mahasiswa pengguna di windows mau tidak mau hanya dapat menggunakan di badak. Hal ini sangat menghambat karena library FUSE adalah program dengan panjang baris hingga ratusan sehingga sangat sulit dibaca jika menggunakan terminal di badak
+- Beberapa mahasiswa sudah mulai terdapat kesibukan, terutama mahasiswa yang mulai magang, sehingga beberapa mahasiswa terhambat dalam pengerjaan tahap 5 ini
+- Perubahan jenis tugas dari kelompok menjadi individu di mana pada tahap 2 - 4 merupakan tugas kelompok, cukup membuat kaget beberapa mahasiswa.
+
+Kelebihan :
+- Mahasiswa mendapat ilmu baru, yaitu ilmu mengenai FUSE
+- Soal menjadi sangat mudah jika sudah mengerti mengenai FUSE, karena hal yang perlu ditambahkan pada program sangatlah mudah.
+- Dokumentasi mengenai tiap fungsi pada FUSE sudah cukup lengkap, ditambah terdapat comment dari dosen pengampu pada beberapa fungsi di FUSE yang cukup membantu.
+
+Kekurangan :
+- Waktu pengerjaan sangat singkat (3 jam) apabila dibandingkan dengan tahapan sebelumnya.
+- Penjelasan pada soal sangat susah dimengerti jika tidak langsung membaca program dokumentasi FUSE.
+- Resource untuk mempelajari FUSE hanya terbatas pada link yang diberikan oleh dosen pengampu, untuk demo program tidak ada sama sekali sehingga sangat sulit untuk mengerti cara kerja FUSE.
