@@ -98,3 +98,103 @@ Kekurangan :
 - Waktu pengerjaan sangat singkat (3 jam) apabila dibandingkan dengan tahapan sebelumnya.
 - Penjelasan pada soal sangat susah dimengerti jika tidak langsung membaca program dokumentasi FUSE.
 - Resource untuk mempelajari FUSE hanya terbatas pada link yang diberikan oleh dosen pengampu, untuk demo program tidak ada sama sekali sehingga sangat sulit untuk mengerti cara kerja FUSE.
+
+2. Penjelasan (dugaan) berikut ini :
+====================================
+
+a. Scripting 
+Scripting adalah kegiatan menulis serangkaian perintah untuk dieksekusi oleh shell. Hasil Scripting yang disimpan dapat mempermudah user untuk record perintah yang pernah dilakukan dan recalling perintah yang sudah dilakukan. 
+Bash Linux tersedia di hampir semua varian Linux dan tidak memerlukan instalasi terpisah, untuk memulai Scripting dapat menggunakan command "script [namafile]" [namafile] adalah file baru yang akan menyimpan hasil dari script tersebut. hasil dari script memuat:
+1. Tanggal dan jam dari "Script started"
+2. Tanggal dan jam dari "Script done"
+dan untuk menyelesaikan script dapat menggunakan command "exit" dan hasil script sudah tersimpan pada file baru tadi.
+
+b. FUSE 
+FUSE adalah singkatan dari Filesystem in Userspace merupakan suatu software interface pada UNIX. FUSE digunakan untuk membuat virtual file system.  Untuk membuat FUSE ada 3 hal yang harus dibuat, yaitu : kernel side module, libfuse, dan aplikasinya.
+Untuk mengimplementasikan file system kita harus menulis program terlebih dahulu yang akan berfungsi untuk melakukan mount pada file system yang baru, merespon jika ada operasi read/write/stat/ dan program ini juga akan akan tertaut dengan libfuse. Ketika filesyetem berhasil di mount, handler akan teregister dengan kernel dan meneruskan operasi read/write/stat/ kepada handler untuk dilakukan respon terhadap operasi tersebut.
+
+C. Git
+Git adalah version control system yang sering digunakan para developer untuk mengembangkan proyek secara bersama-bersama. Fungsi utama git yaitu mengatur versi dari source code program Anda dengan mengasih tanda baris dan code mana yang ditambah atau diganti.
+Berikut adalah beberapa perintah-perintah dasar git:
+Git init : untuk membuat repository git pada file lokal yang nantinya akan membuat file .git
+Git status : untuk mengetahui status dari repository lokal dibandingkan dengan perubahan sebelumnya 
+Git add : menambahkan file baru pada repository yang dipilih
+Git commit : untuk menyimpan perubahan yang dilakukan, tetapi tidak ada perubahan pada remote repository.
+Git push : untuk mengirimkan perubahan file setelah di commit ke remote repository.
+Git branch : melihat seluruh branch yang ada pada repository
+Git checkout : menukar branch yang aktif dengan branchyang dipilih
+Git merge : untuk menggabungkan branch yang aktif dan branch yang dipilih
+Git clone : membuat Salinan repository lokal
+Git stash : untuk mengurungkan segala perubahan yang dilakukan, sehingga git status menjadi bersih
+Git pull : untuk mengupdate branch repository local menjadi sesuai dengan remote repository
+
+D. GitHub
+GitHub adalah sebuah aplikasi berbasis website dengan Version Control System (VCS) yang menyediakan layanan untuk menyimpan repository dengan gratis. Repository merupakan tempat yang dapat Anda gunakan untuk menyimpan berbagai file berupa source code. Namun tak hanya itu, dengan aplikasi ini Anda juga dapat melakukan kolaborasi dalam mengerjakan project tertentu agar dapat terus melakukan update secara rutin, termasuk melacak dan menyimpan perubahan-perubahan yang terjadi dalam project tersebut. Aplikasi ini termasuk sangat populer dan memungkinkan banyak perusahaan-perusahaan besar skala dunia seperti Google, Facebook, dan Line dapat membuka beberapa project mereka menjadi open-source dan mendapatkan bantuan dari siapapun yang ingin membantu.
+
+E. GitHub Pages
+Github pages merupakan salah satu fitur yang diberikan secara gratis oleh Github. Github Pages adalah fasilitas hosting web statis (html, css, javascript) yang diberikan secara gratis dengan subdomain .github.io oleh github. Github Pages sangat berguna untuk membuat dokumentasi berbasis web dari repo github yang telah kita buat secara gratis dan mudah
+Dan untuk mempublikasikan halaman web di Github page dapat dilakukan dengan beberapa cara :
+- Github page dari Root repo
+- Github page di folder
+- Github page di branch gh-page
+
+F. GnuPG
+GnuPG adalah suatu software yang dipakai untuk melakukan proses enkripsi data, dekripsi data , dan penandatanganan digital untuk selanjutnya dilakukan proses pertukaran data antar perangkat. GnuPG juga dikenal sebagai GPG yaitu suatu command line yang dapat dijalankan melalui aplikasi Terminal di setiap sistem operasi dengan fitur easy integration dengan aplikasi lainnya. Enkripsi dengan GPG ini sudah mengimplementasikan standar yang dijelaskan dalam RFC4880 (dikenal juga dengan standar PGP). GPG juga dilengkapi dengan fungsi manajemen kunci keamanan seperti pembuatan kunci, penyuntingan kunci, dan penghapusan kunci keamanan.
+Dengan model enkripsi yang digunakan pada GPG, seseorang pasti mempunyai sepasang kunci keamanan yaitu Private Key dan Public Key. Dimana Private Key adalah kunci enkripsi yang hanya boleh diakses oleh pemilik kunci, sedangkan public key adalah key yang dapat di sebarluaskan kepada orang yang kita ingin berikan akses.
+
+F. SHA1SUM
+sha1sum adalah program komputer yang menghitung dan memverifikasi hash SHA-1. Ini biasanya digunakan untuk memverifikasi integritas file. Ini memungkinkan dibandingkan dengan intisari pesan yang diterbitkan untuk memeriksa apakah file tersebut tidak dimodifikasi dari aslinya. Pada UAS OS genap 2020, file SHA1SUM digunakan sebagai berkas yang menyimpan hash berkas-berkas yang diupload di GitHub. Jika terdapat ubahan pada file yang di hash, maka kita dapat mendeteksinya karena hasil dari hash nya akan berbeda dan integrity dari file tersebut akan error. SHA-1 menghasilkan nilai hash 160-bit (20 byte) yang dikenal sebagai intisari pesan. 
+
+G. SHA1SUM.asc
+Format .asc sendiri merupakan format untuk berkas ASCII lapis baja yang digunakan oleh suatu software yang dipakai untuk melakukan proses enkripsi data seperti PGP atau GnuPG. File tersebut berisi pesan yang ditandatangani secara digital dan dapat menyimpan informasi tertulis teks biasa, serta informasi biner yang disandikan sebagai teks. File .asc juga menyertakan kunci sebagai teks yang ditandatangani jelas, yang dapat diverifikasi menggunakan metode otentikasi. Oleh karena itu, karena SHA1SUM adalah file hasil hash dari beberapa file kita, dan .asc adalah file enkripsi, maka SHA1SUM.asc merupakan berkas dimana berisi sebuah hasil enkripsi SHA1SUM yang nantinya dapat diverifikasi dan didekripsi (oleh yang berhak) untuk melihat informasi asli yang ada.
+
+3. Bahas dari sudut pandang peserta OS201, berkas berikut ini:
+https://rahmatm.samik-ibrahim.vlsm.org/2020/07/exam-from-home-pertama-kali.html
+===============================================================================
+A. Tantangan
+Modifikasi terhadap tata cara pengumpulan hasil ujian berhasil dilakukan sehingga membuat ujian menjadi lebih menjunjung integritas dan dapat mengurangi tingkat kecurangan yang dilakukan mahasiswa, namun prosedur pengumpulan jawaban menjadi lebih rumit. Kesalahan prosedur yang dilakukan peserta menjadi salah satu kendala yang banyak dialami peserta. Hal ini menyebabkan peserta yang seharusnya dapat lolos suatu tahap menjadi berhenti di tahap tersebut walaupun diberi kesempatan mengulang tahap yang gagal. Kemudian, terlalu banyak prosedural juga membuat semakin lama waktu peserta untuk mengikuti prosedur tersebut dibandingkan mengerjakan soal yang diberikan.
+
+B. Windows 10 & Font
+Peserta tidak biasa dalam penggunaan sistem di badak dan karena kebanyakan mahasiswa memiliki operating system Windows pada PC nya, maka akan terjadi perbedaan pada format text windows dengan format text jika menggunakan badak (Linux). Perbedaan terjadi pada newline windows yang berupa CR LF
+
+C. Study From Home
+Materi sebenarnya sudah bagus disampaikan melalui video pembelajaran yang di unggah di YouTube, namun peserta kurang mengerti cara implementasi materi tersebut pada permasalahan yang sebenarnya. Selain itu 4sks yang mengartikan 12 jam seminggu dengan 4 jam mengakses materi, akan sangat menguras kuota internet dari mahasiswa, selain itu kehadiran yang hanya dihitung dari absen yang dilakukan secara online mengakibatkan banyak mahasiswa yang tidak mengakses materi dan menghilang.
+
+D. Github
+Tidak semua peserta terbiasa menggunakan Github dengan membuat repository git nya di lokal, Hal ini dapat terlihat dari banyak peserta yang awalnya melakukan pembuatan berkas yang secara langsung di Github. Kemudian, isi dati file berkas tersebut didapatkan dengan meng copas dari text editor mahasiswa di lokal, hal ini dapat menimbulkan masalah karena format text newline pada windows berbeda dengan linux sehingga jika dilakukan pengecekan dengan OS linux, filenya tidak akan lolos pengecekan.
+
+E. Github pages
+Mayoritas peserta tidak mengetahui mengenai Github pages dan cara pembuatannya. Oleh karena itu, beberapa peserta mengalami kendala dalam pembuatan Github page walaupun sudah diberikan referensi cara pembuatan github pages dan contoh github pages yang sudah benar (repositori cbkadal). Kendala yang terjadi salah satunya yaitu peserta terkadang harus menunggu agak lama agar perubahan yang dilakukan pada Github pages terlihat. Peserta beberapa kali merasa kebingungan apakah memang Github pages nya belum ke load atau salah pada code yang ditulis.
+
+F. GNUPG
+Terdapat penggunaan versi gpg yang berbeda sehingga membuat peserta bingung dan hanya mengikuti instruksi yang berikan tanpa mengerti perbedaan fungsi dari versi gpg yang digunakan. Misalnya untuk gpg --list-secret-keys memberikan output, tetapi untuk gpg2 --list-secret-keys tidak memberikan output. Selain itu, beberapa  peserta juga mengalami kesalahan pada berkas 0000-mypub.txt, karena peserta membuat berkas secara langsung di github dengan melakukan copy paste isi berkas dari badak sehingga ada beberapa bagian yang terpotong dan tidak terbaca oleh sistem.
+
+G. SHA1SUM dan SHA1SUM.ASC
+Mayoritas peserta baru mengenal dan mengetahui tentang sha1sum dan sha1sum.asc pada saat pelaksanaan UAS OS sehingga hanya mengikuti arahan contoh pembuatan SHA1SUM dan SHA1SUM.asc tanpa memahami terlebih dahulu apa maksud dari kedua file tersebut. sha1sum merupakan berkas file yang berisi hash dari berkas-berkas tugas dari pelaksanaan OS. sha1sum.asc merupakan berkas dimana berisi sebuah hasil enkripsi SHA1SUM yang nantinya dapat diverifikasi dan didekripsi (oleh yang berhak) untuk melihat informasi asli yang ada. sha1sum dan sha1sum.asc perlu dibuat ulang setiap ada perubahan. Beberapa peserta mengalami kesalahan pada sha1sum dan sha1sum.asc karena kurang mengerti kegunaan keduanya sehingga tidak membuat ulang setiap ada perubahan. 
+
+H. Scele
+Pada saat pelaksanaan perkuliahan OS, peserta biasanya akan melihat SCELE apabila ingin absen dan melihat materi pada waktu pembelajaran di mana terjadi 2 kali seminggu, selain waktu tersebut peserta cenderung tidak melihat SCELE kecuali ada informasi penting yang disampaikan melalui WhatsApp Group. Kemudian, pada saat pelaksanaan UAS OS, frekuensi mengakses scele meningkat karena segala pertanyaan terkait pelaksanaan UAS harus ditanyakan melalui forum di scele. Banyaknya thread pertanyaan mengenai pelaksanaan UAS cukup membingungkan mahasiswa untuk mendapatkan informasi yang dia cari di thread scele.
+
+I. WhatsApp group
+Penggunaan WhatsApp group cukup efektif untuk memberitahu terkait informasi penting baik pada saat pelaksanaan perkuliahan maupun pada saat pelaksanaan UAS. Hal ini dikarenakan WhatsApp group memberikan notifikasi ke smartphone mahasiswa apabila terdapat pesan masuk dari grup whatsapp tersebut sedangkan SCELE memberikan notifikasi ke email UI dari mahasiswa yang cenderung lebih jarang di akses bila dibandingkan dengan smartphone mahasiswa. Namun, WhatsApp group kurang baik apabila terdapat banyak informasi penting, karena untuk mendapatkan informasi yang dibutuhkan sangat merepotkan untuk membaca satu persatu pesan hingga ke pesan yang dibutuhkan.
+
+J. Zoom
+Penggunaan zoom pada pelaksanaan mata kuliah OS genap 2020 hanya beberapa kali untuk sesi tanya jawab. Beberapa peserta cenderung lebih suka apabila materi atau demo disampaikan secara langsung melalui zoom. Hal ini dikarenakan mahasiswa dapat bertanya secara langsung apabila terdapat hal yang membingungkan dan dapat terjawab sampai jelas bila dibandingkan dengan diakses melalui youtube yang kurang interaktif.
+
+K. pribadi/os201
+Merupakan repo yang dibuat pada repo individu masing masing tiap mahasiswa. Beberapa mahasiswa terkadang salah melakukan push file, Misalnya file yang seharusnya dipush dan dikumpulkan di github bersama tetapi malah dipush ke github pribadi ataupun sebaliknya. Atau terkadang juga seharusnya dienkripsi terlebih dahulu namun malah yang dipush adalah file seadanya tanpa di enkripsi 
+  
+L. bersama/os201
+Merupakan repo pada github "Operating Systems" yang pada pelaksanaan UAS, setiap mahasiswa memiliki 1 folder untuk dirinya di repo tersebut. Pada saat pengumpulan file, terutama ketika mendekati deadline sering terjadi race condition pada saat melakukan push ke github bersama, sehingga harus melakukan pull dan percobaan push berulang kali.
+
+M. Youtube
+Materi yang disampaikan mudah diterima dan mudah diakses karena semua mahasiswa memiliki akses yang mudah ke youtube. Namun kurang banyak contoh demo yang diberikan dan kurang interaktif untuk dilakukan tanya jawab bila dibandingkan dengan perkuliahan tatap muka langsung ataupun zoom meeting. Padahal, contoh demo akan sangat berguna untuk pemahaman saat pelaksanaan UAS. 
+
+N. Email
+Sejauh ini tidak ada problem dalam penggunaan email, penggunaan email sudah tepat untuk permasalahan penting yang bukan terkait materi pembelajaran. Penggunaan  subjek [HELP] juga sangat membantu untuk menunjukkan bahwa email tersebut penting dan dapat membedakan dengan email lainnya.
+
+O. Scripting
+Mayoritas peserta tidak memahami maksud dari langkah-langkah scripting sebelumnya sehingga peserta hanya mengikuti langkah-langkah yang diberikan dengan cara copy and paste. Hal ini sering menimbulkan kesalahan karena format text yang berbeda, sehingga terkadang akan terdapat character aneh pada hasil script. Selain itu, kebanyakan mahasiswa juga baru pertama kali melakukan record perintah shell dengan menggunakan "script [namafile]"
+  
+P. Race Condition
+Race condition dapat terjadi ketika absen yang dilakukan melalui github maupun scele. Race condition terjadi terutama pada saat absen UAS OS karena waktu absen yang cukup sempit sehingga mahasiswa harus melakukan pull ulang kemudian push untuk menyelesaikan masalah ini. Selain itu, ada kejadian dimana terdapat mahasiswa yang tidak melakukan pull ulang saat terjadi race condition sehingga merugikan mahasiswa lain yang telah melakukan pengubahan. Untuk race condition di scele, lebih susah untuk dihandle karena tidak terdapat notif apabila absen yang kita edit bukanlah versi terbaru dari absen yang ada.
