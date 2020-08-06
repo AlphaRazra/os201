@@ -63,3 +63,20 @@ Berikut adalah detail untuk pelaksanaan UAS di tiap tiap mata kuliah selain mata
 - Untuk pelaksanaan UAS Basdat, tipe soal adalah pilihan ganda dan essay.  Dilaksanakan dengan total 3 jam pengerjaan dan kedua tahapan tersebut dilaksanakan di scele.cs.ui.ac.id. Untuk soal pilihan ganda, nilai dapat langsung diketahui setelah submit, sedangkan untuk soal essay jawaban ditulis di kertas dan hasil di scan kemudian di upload di scele.
 - Untuk pelaksanaan UAS Advance Programming, tipe soal adalah pilihan ganda, essay, dan melengkapi program. Ketiga tiganya dilaksanakan dengan menggunakan scele.cs.ui.ac.id dengan total waktu pengerjaan 3 jam.
 - Secara umum, UAS mata kuliah selain OS dilaksanakan dengan 1 tahapan dalam waktu tertentu.
+
+Perbandingan pelaksanaan UTS mata kuliah lain dengan UAS mata kuliah tersebut.
+==============================================================================
+Untuk mata kuliah lain selain OS, cenderung mirip pada pelaksanaan UTS dan UAS nya. Hal ini dikarenakan UTS dan UAS mata kuliah tersebut telah berbentuk online. Berikut adalah beberapa perbedaan yang menurut saya tidak terlalu signifikan :
+
+- Pada pelaksanaan UTS anum, pelaksanaan seperti ujian biasa, diberikan beberapa soal dengan bobot maksimal 100. Sedangkan pada saat UAS, mahasiswa diberikan keleluasaan untuk memilih 5 dari 7 soal dengan bobot dari 5 soal itu dapat dipilih sedemikian sehingga bobotnya 100.
+
+- Untuk mata kuliah MPPI, tidak terdapat UTS dan UAS, sebagai gantinya mata kuliah tersebut terdapat project berkelompok yang bobotnya setara UTS dan UAS. Pada saat waktu UTS, kelompok menyiapkan tema project kelompok tersebut sedangkan pada rentangan sehabis UTS hingga UAS, adalah eksekusi project tersebut.
+
+Saran pelaksanaan perkuliahan untuk OS
+======================================
+- Penggunaan Zoom untuk tanya jawab demo dan materi. Salah satu contohnya mata kuliah Statistika dan Probabilitas yang mengadakan zoom meeting setiap waktu perkuliahan dan melakukan perekaman video. Hal ini sangat baik dikarenakan mahasiswa yang memiliki kendala untuk mengikuti perkuliahan tetap dapat mengakses penyampaian materi dengan melihat rekaman pertemuan zoom meeting
+
+- Usulan dari bapak rahmat mengenai panduan instalasi debian virtualbox dapat menyelesaikan terkait masalah perbedaan format text yang terjadi pada perbedaan environment antara windows dengan linux. Hal ini cukup baik karena dengan begitu mahasiswa tidak perlu mengakses badak untuk dapat menggunakan environment linux, sehingga jika mahasiswa tidak memiliki internet, ataupun badak terjadi down, mahasiswa tetap dapat menggunakan environment linux melalui virtual box.
+
+- Usulan dari bapak rahmat mengenai pengubahan skema pelaksanaan UTS dan UAS yang diganti dengan tugas di tiap minggu perkuliahan. Menurut saya ini cukup baik untuk meningkatkan keaktifan mahasiswa pada perkuliahan OS di tiap minggunya karena mahasiswa akan terdorong untuk memahami materi yang diberikan tiap minggu agar mendapatkan hasil yang baik untuk tugas di minggu tersebut.
+
